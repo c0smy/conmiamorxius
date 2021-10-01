@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sitio de la panaderia" />
+    <meta name="keywords" content="Pasteles , facturas , cosas que engordan." />
+    <meta name="Author" content="Chuchi Gonzales" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d53c334605.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PanaderiaCocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo de la panaderia"
+              width="100"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contactos.html"
+                  >Contactos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h1 class="display-2">Contactanos</h1>
+        <hr />
+        <article class="row">
+          <div class="col-sm-12 col-md-6 mb-3">
+            <form>
+              <div class="mb-3">
+                <label for="" class="form-label">Nombre y apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreApellido"
+                  required
+                  maxlength="35"
+                  minlength="4"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  maxlength="40"
+                  minlength="5"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                  <label for="consulta" class="form-label">Consulta</label>
+                  <textarea name="" id="consulta"  rows="4" class="form-control" minlength="3" maxlength="250" required></textarea>
+
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3984.2260675272146!2d-68.84480465858748!3d-32.88966919342988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x501d1521958dfb21!2sPlaza%20Independencia!5e0!3m2!1ses-419!2sar!4v1630333014536!5m2!1ses-419!2sar" class="w-100" height="450"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-dark container-fluid">
+      <article class="row">
+        <div class="col-sm-12 col-md-4">
+          <img
+            src="../img/cocu_logo-450.png"
+            width="150"
+            class="my-5"
+            alt="logopanaderia"
+          />
+        </div>
+        <div class="col-sm-12 col-md-4 text-light my-5">
+          <h5 class="lead">Horarios de Atencion:</h5>
+          <p>Lunes a Viernes 09hs-18hs</p>
+          <p>Sabados,Domingos y Feriados 09hs-14hs</p>
+        </div>
+        <div class="col-sm-12 col-md-4 text-light my-5">
+          <h5 class="lead">Seguinos en Nuestras redes:</h5>
+          <i class="fab fa-2x text-secondary p-1 fa-instagram"></i>
+          <i class="fab fa-2x text-secondary p-1 fa-facebook-square"></i>
+          <i class="fab fa-2x text-secondary p-1 fa-twitter-square"></i>
+        </div>
+      </article>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
